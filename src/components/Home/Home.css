@@ -1,0 +1,38 @@
+.input-container{
+    display: flex;
+    gap:2px;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin-bottom: 30px;
+}
+input{
+    font-size: 16px;
+    width: auto;
+    min-width: 100px; 
+}
+input:focus{
+    outline: none;
+}
+.banner{
+    display: flex;
+    gap: 20px;
+}
+.heading{
+    color:gray;
+    font-weight: 500;
+}
+.card-left{
+    display: flex;
+}
+.card-container{
+    width: 100%;
+}
+
+@media screen and (min-width: 720px){
+    .card-container{
+        width: 700px;
+    }
+}
+
