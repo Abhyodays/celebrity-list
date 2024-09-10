@@ -12,7 +12,7 @@ input{
     width: auto;
     min-width: 100px; 
 }
-input:focus{
+input:focus, textarea:focus{
     outline: none;
 }
 .banner{
